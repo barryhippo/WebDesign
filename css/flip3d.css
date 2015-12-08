@@ -54,11 +54,11 @@
 .x-card-inner {
     height: 395px;
 }
-.x-card-outer.flip-3d .x-face-outer.front {
-    z-index: 2;
-}
 .x-card-outer.flip-3d .x-face-outer.front, .x-card-outer.flip-3d .x-face-outer.back, .x-card-outer.flip-3d.flipped .x-face-outer.front, .x-card-outer.flip-3d.flipped .x-face-outer.back {
     z-index: 1;
+}
+.x-card-outer.flip-3d .x-face-outer.front {
+    z-index: 2;
 }
 .x-card-outer.flip-3d .x-face-outer {
     -webkit-backface-visibility: hidden;
