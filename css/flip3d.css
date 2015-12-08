@@ -54,7 +54,7 @@
 .x-card-inner {
     height: 395px;
 }
-.x-card-outer .x-face-outer.front {
+.x-card-outer.flip-3d .x-face-outer.front {
     z-index: 2;
 }
 .x-card-outer.flip-3d .x-face-outer.front, .x-card-outer.flip-3d .x-face-outer.back, .x-card-outer.flip-3d.flipped .x-face-outer.front, .x-card-outer.flip-3d.flipped .x-face-outer.back {
@@ -139,6 +139,3 @@
 .x-card-outer.flip-3d.flip-from-bottom.flipped .x-card-inner{
     -webkit-transform:rotateX(180deg);-ms-transform:rotateX(180deg);transform:rotateX(180deg)
 }
-
-
-
