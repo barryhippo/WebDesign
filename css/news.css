@@ -20,6 +20,38 @@ h2{
 	margin-top: 0;
 	margin-bottom: 30px;
 }
+.fenlei {
+	float: right;
+	margin-top: 1%;
+	border-left: 0 none;
+    clear: both;
+    display: inline-table;
+    font-style: italic;
+    height: 40px;
+    line-height: normal;
+    padding: 0;
+    text-align: center;
+}
+.fenlei a:hover {
+    background: #19a9e5 none repeat scroll 0 0;
+    color: #fff;
+}
+.fenlei a {
+    border: 1px solid #ededed;
+    border-radius: 3px;
+    color: #878787;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+    margin-right: 5px;
+    outline: medium none;
+    padding: 15px 18px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+}
 .feature_section8 .left {
     width: 30%;
     padding-right: 4%;
@@ -53,6 +85,12 @@ h2{
 	}
 	.fr {
 	    float: left;
+	}
+	.fenlei {
+		width: 100%;
+		margin-top: 3%;
+		text-align: left;
+		padding-left: 5%;
 	}
  }
  
