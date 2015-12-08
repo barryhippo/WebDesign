@@ -2,6 +2,19 @@ h2{
 	text-align: left;
 	margin-left: 4%;
 }
+.container h2{
+	padding:0;
+}
+
+.wrap {
+	width: 100%;
+}
+.pro-con {
+	    padding-left: 0;
+	}
+.pro-con h1 {
+    height: auto;
+}
 .margin_top3 {
 	border-top: 1px solid #000000;
 	margin-top: 0;
@@ -27,6 +40,19 @@ h2{
 	.main_news .news_left {
 	  width: 100%;
 	  padding-right:0;
+	}
+	.container h2{
+		padding:0 0 0 5%;
+	}
+	
+	.wrap {
+		width: 90%;
+	}
+	.pro-con {
+	    padding-left: 5%;
+	}
+	.fr {
+	    float: left;
 	}
  }
  
