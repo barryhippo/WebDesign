@@ -47,6 +47,7 @@
     <link rel="stylesheet" href="js/masterslider/style.css" />
     <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive-index.css"/>
     <script src='js/google_analytics_auto.js'></script></head>
 
 <body>
@@ -809,9 +810,8 @@
     (function($) {
         "use strict";
         var slider = new MasterSlider();
-        var curWidth = $("body").width();
         slider.setup('masterslider' , {
-            width: curWidth,    // slider standard width
+            width: 1400,    // slider standard width
             height:580,   // slider standard height
             space:0,
             speed:45,

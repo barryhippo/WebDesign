@@ -222,3 +222,19 @@ ul.tabs-frame li.last a:after , ul.tabs-frame li.last a:before { display: none; 
 	margin: 10px 0px 0px;
 	color: #353537;
 }
+
+@media only screen and (max-width: 479px) {
+	.cbp-l-grid-projects .cbp-item{
+		width: 100%;
+		height: 380px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.cbp-l-grid-projects .cbp-item {
+		width: 100%;
+		height: 550px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {}
